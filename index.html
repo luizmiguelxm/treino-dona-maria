@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu de Treinos</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #000; /* fundo preto */
+      color: #fff;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .tudo {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    button {
+      width: 100%;
+      background-color: #b300ff; /* roxo */
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      padding: 15px;
+      font-size: 1.1em;
+      box-shadow: 0 2px 6px rgba(179, 0, 255, 0.4);
+      cursor: pointer;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    button:hover {
+      background-color: #9900cc;
+      transform: scale(1.03);
+    }
+
+    h5 {
+      margin: 0;
+      font-weight: normal;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color:#b300ff; margin-bottom: 40px;">Escolha seu treino 💪</h1>
+  <div class="tudo">
+    <div id="primeiro"><a href="index2.html"><button><h5>Treino 1</h5></button></a></div>
+    <div id="segundo"><a href="index3.html"><button><h5>Treino 2</h5></button></a></div>
+    <div id="terceiro"><a href="index4.html"><button><h5>Treino 3</h5></button></a></div>
+    <div id="quarto"><a href="index5.html"><button><h5>Treino 4</h5></button></a></div>
+    <div id="quinto"><a href="index6.html"><button><h5>Treino 5</h5></button></a></div>
+  </div>
+</body>
+</html>
